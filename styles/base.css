@@ -9,6 +9,10 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-style: normal;
+
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  min-height: 100vh;
 }
 
 .roboto-light {
@@ -57,4 +61,116 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-style: italic;
+}
+
+:root {
+  --color-neutral: #ffffff;
+  --color-blue: #022f40ff;
+  --color-light-green: #daffedff;
+  --color-bright-blue: #9bf3f0ff;
+  --color-yellow: #edae49ff;
+  --color-blue-gray: #7c809bff;
+
+  --border-radius: 5px;
+}
+
+header {
+  background: var(--color-blue);
+  color: var(--color-neutral);
+  padding: 25px;
+
+  display: flex;
+  column-gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+header img {
+  border-radius: var(--border-radius);
+}
+
+header span {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul a {
+  color: var(--color-neutral);
+  background: var(--color-blue-gray);
+
+  padding: 10px;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul a.active {
+  background: var(--color-yellow);
+  font-weight: bold;
+}
+
+nav ul a:hover {
+  opacity: 0.9;
+}
+
+main {
+  padding: 30px;
+}
+
+main > h1 {
+  border-bottom: var(--color-blue-gray) solid 1px;
+  color: var(--color-blue-gray);
+  font-style: italic;
+  font-size: 1.25em;
+  padding-bottom: 12px;
+  margin-bottom: 25px;
+}
+
+.card {
+  margin-top: 10px;
+  border-radius: 5px;
+  border: var(--color-blue-gray) solid 1px;
+}
+
+.card h2 {
+  background: var(--color-blue);
+  color: var(--color-neutral);
+  font-size: 1.3em;
+  text-align: center;
+  padding: 10px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 20px 15px;
+  line-height: 26px;
+}
+
+.card:last-child ul {
+  text-align: center;
+  line-height: 35px;
+}
+
+footer {
+  background: var(--color-blue);
+  color: var(--color-neutral);
+  padding: 25px;
+  text-align: center;
+}
+
+footer p:first-child span {
+  font-size: 2.5em;
+  vertical-align: middle;
+}
+
+footer #lastModified {
+  margin-top: 10px;
+  color: var(--color-yellow);
 }

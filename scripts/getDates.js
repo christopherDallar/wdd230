@@ -6,5 +6,5 @@ const pCopyright = document.querySelector("footer p:first-child");
 const pLastModified = document.querySelector("#lastModified");
 
 // Render
-pCopyright.textContent = `&copy; ${currentYear}, Christopher, Venezuela.`;
-pLastModified.textContent = document.lastModified;
+pCopyright.innerHTML = `&copy; ${currentYear}, Christopher, Venezuela <span>🇻🇪</span>`;
+pLastModified.textContent = `Last Modification: ${document.lastModified}`;
