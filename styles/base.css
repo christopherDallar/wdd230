@@ -68,8 +68,8 @@ body {
   --color-blue: #022f40ff;
   --color-light-green: #daffedff;
   --color-bright-blue: #9bf3f0ff;
-  --color-yellow: #edae49ff;
-  --color-blue-gray: #7c809bff;
+  --color-primary: #005f7a;
+  --color-blue-gray: #2e2e2e;
 
   --border-radius: 5px;
 }
@@ -108,8 +108,8 @@ nav a {
 }
 
 nav a.active {
-  background: var(--color-yellow);
-  font-weight: bold;
+  background: var(--color-primary);
+  #005f7a-weight: bold;
 }
 
 nav a:hover {
@@ -169,5 +169,19 @@ footer p:first-child span {
 
 footer #lastModified {
   margin-top: 10px;
-  color: var(--color-yellow);
+}
+
+#mode {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 3rem;
+  cursor: pointer;
+  font-size: 2rem;
+
+  color: black;
+  background: white;
+  border-radius: 5px;
+  padding: 4px;
+  line-height: 35px;
 }
