@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Document</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" >
     <meta
       name="description"
       content="Barquisimeto Chamber of Commerce Site Plan is a website to promote business and share with as many people as possible news and recent events and a contact list of each member of the chamber of commerce."
-    />
-    <link href="https://christopherdallar.github.io/wdd230/" rel="canonical" />
+    >
+    <link href="https://christopherdallar.github.io/wdd230/" rel="canonical" >
     <meta
       property="og:title"
       content="Christopher - WDD 230 - Web Frontend Development"
-    />
-    <meta property="og:type" content="website" />
+    >
+    <meta property="og:type" content="website" >
     <meta
       property="og:url"
       content="https://christopherdallar.github.io/wdd230/chamber/"
-    />
+    >
     <meta
       property="og:image"
       content="https://christopherdallar.github.io/wdd230/chamber/images/home_page.png"
-    />
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/larger.css" />
+    >
+    <link rel="stylesheet" href="styles/normalize.css" >
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/larger.css" >
   </head>
   <body>
     <header>
-      <nav>
-        <a href="chamber">Home</a>
+      <button id="menu"></button>
+      <nav class="navigation">
+        <a href="chamber" class="active">Home</a>
         <a href="#">Discover</a>
         <a href="#">Directory</a>
         <a href="#">Join</a>
@@ -39,15 +40,34 @@
 
     <main>
       <div class="hero-image">
-        <img src="" alt="" />
-        <div class="call-to-action">Join</div>
+        <img src="images/hero.webp" alt="chamber of commerce" >
+        <a href="#" class="call-to-action">Join</a>
       </div>
 
-      <section class="current-events"></section>
+      <section class="current-events">
+        <h3>Event x</h3>
+        <p>lorem sit amet</p>
+      </section>
 
-      <section class="weather-card"></section>
+      <section class="weather-card">
+        <h3>Weather</h3>
+        <p>lorem sit amet</p>
+      </section>
 
-      <section class="companies-spotlights-advertisements"></section>
+      <section class="companies-spotlights-advertisements">
+        <div class="spotlight">
+          <h3>spotlight 1</h3>
+          <p>lorem sit amet</p>
+        </div>
+        <div class="spotlight">
+          <h3>spotlight 2</h3>
+          <p>lorem sit amet</p>
+        </div>
+        <div class="spotlight">
+          <h3>spotlight 3</h3>
+          <p>lorem sit amet</p>
+        </div>
+      </section>
     </main>
 
     <footer>
@@ -57,5 +77,8 @@
       </p>
       <p id="lastModified"></p>
     </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
   </body>
 </html>
