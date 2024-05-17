@@ -185,3 +185,22 @@ footer #lastModified {
   padding: 4px;
   line-height: 35px;
 }
+
+.hero {
+  position: relative;
+}
+
+.hero p {
+  font-weight: bold;
+  background: white;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 43%;
+}
+
+iframe {
+  margin: auto;
+  margin-bottom: 50px;
+}

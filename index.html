@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="styles/normalize.css">
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link rel="stylesheet" href="styles/normalize.css" >
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
-  >
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    >
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/larger.css" >
     <title>Christopher - WDD 230 - Web Frontend Development</title>
     <meta
       name="description"
       content="WDD 230 - Web Frontend Development, Christopher Gómez Dallar, course assignment portal"
-  >
-    <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
-    <link href="https://christopherdallar.github.io/wdd230/" rel="canonical">
+    >
+    <meta name="author" content="" >
+    <link rel="icon" href="favicon.ico" >
+    <link href="https://christopherdallar.github.io/wdd230/" rel="canonical" >
     <meta
       property="og:title"
       content="Christopher - WDD 230 - Web Frontend Development"
-  >
-    <meta property="og:type" content="website">
+    >
+    <meta property="og:type" content="website" >
     <meta
       property="og:url"
       content="https://christopherdallar.github.io/wdd230/"
-  >
+    >
     <meta
       property="og:image"
       content="https://christopherdallar.github.io/wdd230/images/home_page.png"
-  >
+    >
   </head>
   <body>
     <header>
-      <img src="images/profile.jpg" alt="christopher">
+      <img src="images/profile.jpg" alt="christopher" >
       <span>Christopher G. Dallar</span>
       <div id="mode">
         🕶️
@@ -49,6 +49,23 @@
       <a href="#">Form</a>
     </nav>
     <main>
+      <div class="hero">
+        <picture>
+          <source media="(max-width: 500px)" srcset="images/hero-small.webp" >
+          <source
+            media="(max-width: 1000px)"
+            srcset="images/hero-medium.webp"
+          >
+          <img
+            src="images/hero-larger.webp"
+            alt="larger"
+            width="960"
+            height="480"
+          >
+        </picture>
+        <p>Aba Nigeria Temple</p>
+      </div>
+
       <h1>WDD 230: Web Frontend Development</h1>
 
       <section class="card">
@@ -86,7 +103,6 @@
             <a href="week03/responsive-images.html">Responsive Images</a>
             |
             <a href="week03/bom.html">localStorage</a>
-
           </div>
           <div>Week 04:</div>
           <div>Week 05:</div>
@@ -99,10 +115,20 @@
         <ul>
           <li>🇻🇪 Caracas, Venezuela:</li>
           <li>☔ 23°C - Sunshine</li>
-          <li>🚀 Page Visits: 15</li>
+          <li>🚀 Page Visits: <span class="visits"></span></li>
         </ul>
       </section>
     </main>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7856.333387891563!2d-69.29169480000002!3d10.085424100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sve!4v1715955141457!5m2!1ses-419!2sve"
+      width="600"
+      height="450"
+      style="border: 0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
 
     <footer>
       <p>
@@ -112,6 +138,7 @@
     </footer>
 
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/counterVisits.js"></script>
     <script src="scripts/index.js"></script>
   </body>
 </html>
