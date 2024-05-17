@@ -7,6 +7,17 @@
     font-size: 1.2em;
   }
 
+  #menu {
+    display: none; /* hide hamburger button */
+  }
+
+  .navigation {
+  }
+
+  .navigation a {
+    display: block;
+  }
+
   main {
     max-width: 1024px;
     margin: auto;

@@ -13,6 +13,8 @@ body {
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   min-height: 100vh;
+
+  background: rgb(238, 238, 238);
 }
 
 .roboto-light {
@@ -83,6 +85,8 @@ header {
   column-gap: 50px;
   align-items: center;
   justify-content: center;
+
+  position: relative;
 }
 
 header img {
@@ -190,6 +194,10 @@ footer #lastModified {
   position: relative;
 }
 
+.hero img {
+  width: 100%;
+}
+
 .hero p {
   font-weight: bold;
   background: white;
@@ -203,4 +211,33 @@ footer #lastModified {
 iframe {
   margin: auto;
   margin-bottom: 50px;
+}
+
+#menu {
+  font-size: 1.5rem;
+  border: 0;
+  background: none;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  bottom: 15px;
+  right: 15px;
+}
+
+#menu::before {
+  content: '☰';
+}
+
+#menu.open::before {
+  content: '❎';
+}
+
+.navigation a {
+  display: none;
+  text-align: center;
+}
+
+.open a {
+  display: block;
 }
