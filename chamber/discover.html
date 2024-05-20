@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Barquisimeto Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico" >
+    <meta name="author" content="Christopher Gomez Dallar wdd230" >
+    <meta
+      name="description"
+      content="Barquisimeto Chamber of Commerce Site Plan is a website to promote business and share with as many people as possible news and recent events and a contact list of each member of the chamber of commerce."
+    >
+    <link href="https://christopherdallar.github.io/wdd230/" rel="canonical" >
+    <meta property="og:type" content="website" >
+    <meta
+      property="og:title"
+      content="Christopher - WDD 230 - Web Frontend Development"
+    >
+    <meta property="og:type" content="website" >
+    <meta
+      property="og:url"
+      content="https://christopherdallar.github.io/wdd230/chamber/"
+    >
+    <meta
+      property="og:image"
+      content="https://christopherdallar.github.io/wdd230/chamber/images/home_page.png"
+    >
+    <link rel="stylesheet" href="styles/normalize.css" >
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/larger.css" >
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="" >
+      <button id="menu"></button>
+      <nav class="navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="#">Directory</a>
+        <a href="#">Join</a>
+      </nav>
+    </header>
+
+    <main class="discover">
+      <aside>
+        <section>
+          <h3 id="visitor-message"></h3>
+          <p>
+            “Welcome to the Barquisimeto City Chamber of Commerce! Whether
+            you’re a new business owner or an established one, we’re thrilled to
+            have you join our vibrant community. Our mission is to support your
+            business growth, foster connections, and provide valuable resources.
+            Explore our networking events, workshops, and industry forums – all
+            designed to help your business thrive. Thank you for being part of
+            our Chamber family!” 🌟
+          </p>
+        </section>
+
+        <section>
+          <h3>New Networking Event</h3>
+          <picture>
+            <img
+              src="images/networking-larger.webp"
+              alt="larger"
+              width="500"
+              height="300"
+            >
+          </picture>
+          <p>
+            🌐 Join us at CHAMBER BQTO CONNECT: An Event in 2024 on May 1 at
+            Arenaplaza! 🚀 If you are a member of our Chamber and would like to
+            meet new potential business partners, this event promises valuable
+            connections, knowledge sharing and growth opportunities. Network
+            with industry experts, exchange ideas and advance your career.
+            Secure your spot now before tickets sell out! 🎟️
+          </p>
+        </section>
+      </aside>
+
+      <div class="gallery-images">
+        <h1>Discover</h1>
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset="images/box-import-small.webp"
+          >
+          <img
+            loading="lazy"
+            src="images/box-import-larger.webp"
+            alt="larger"
+            width="750"
+            height="500"
+          >
+        </picture>
+
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset="images/contract-small.webp"
+          >
+          <img
+            loading="lazy"
+            src="images/contract-larger.webp"
+            alt="larger"
+            width="750"
+            height="500"
+          >
+        </picture>
+
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset="images/e-commerce-small.webp"
+          >
+          <img
+            loading="lazy"
+            src="images/e-commerce-larger.webp"
+            alt="larger"
+            width="750"
+            height="500"
+          >
+        </picture>
+
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset="images/save-money-small.webp"
+          >
+          <img
+            loading="lazy"
+            src="images/save-money-larger.webp"
+            alt="larger"
+            width="750"
+            height="500"
+          >
+        </picture>
+
+        <picture>
+          <source media="(max-width: 500px)" srcset="images/ship-small.webp" >
+          <img
+            loading="lazy"
+            src="images/ship-larger.webp"
+            alt="larger"
+            width="750"
+            height="500"
+          >
+        </picture>
+
+        <picture>
+          <source media="(max-width: 500px)" srcset="images/train-small.webp" >
+          <img
+            loading="lazy"
+            src="images/train-larger.webp"
+            alt="larger"
+            width="750"
+            height="500"
+          >
+        </picture>
+      </div>
+    </main>
+
+    <footer>
+      <p>Contact Us: +584245726717</p>
+      <p>
+        &copy; 2024, Christopher Gómez Dallar, Venezuela. Project for WDD 230.
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/discover.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+  </body>
+</html>
