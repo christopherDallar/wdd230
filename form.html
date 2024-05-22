@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/larger.css" >
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/form.css" >
+  </head>
+  <body>
+    <header>
+      <img src="images/profile.jpg" alt="christopher" >
+      <span>Christopher G. Dallar</span>
+      <div id="mode">
+        🕶️
+      </div>
+      <button id="menu"></button>
+    </header>
+    <nav class="navigation">
+      <a href="index.html" class="active">Home</a>
+      <a href="chamber/index.html">Chamber</a>
+      <a href="week01/chamber-site-plan.html">Site Plan</a>
+      <a href="form.html">Form</a>
+    </nav>
+    <main>
+      <form action="record.html" method="get">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            required
+            placeholder="Christopher G."
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            pattern=".{8,}"
+            required
+            placeholder="At least 8 characters"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="passwordRepeated">Password repeated</label>
+          <input
+            type="password"
+            name="passwordRepeated"
+            id="passwordRepeated"
+            pattern=".{8,}"
+            required
+            placeholder="Match first password typed"
+          >
+        </div>
+
+        <p id="formmessage"></p>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+            placeholder="Format: yourmail@byui.edu"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="pageRating">Page Rating</label>
+          <input
+            type="range"
+            name="pageRating"
+            id="pageRating"
+            min="1"
+            max="10"
+          >
+        </div>
+
+        <input type="submit" value="Send Feedback" >
+      </form>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2024, Christopher Gómez Dallar, Venezuela.
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/form.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
