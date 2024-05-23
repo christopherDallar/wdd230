@@ -93,19 +93,20 @@
             name="email"
             id="email"
             required
-            pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+            pattern="[a-zA-Z0-9._%+\-]+@byui\.edu"
             placeholder="Format: yourmail@byui.edu"
           >
         </div>
 
         <div class="form-group">
-          <label for="pageRating">Page Rating</label>
+          <label for="pageRating">Page Rating (Current Value: <span id="pageRatingValue">1</span>)</label>
           <input
             type="range"
             name="pageRating"
             id="pageRating"
             min="1"
             max="10"
+            value="1"
           >
         </div>
 

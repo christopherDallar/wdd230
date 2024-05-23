@@ -1,8 +1,11 @@
 const kp1 = document.querySelector("#password");
 const kp2 = document.querySelector("#passwordRepeated");
 const message = document.querySelector("#formmessage");
+const pageRatingElem = document.querySelector("#pageRating");
 
 kp2.addEventListener("focusout", checkSame);
+
+pageRatingElem.addEventListener("change", handleChangePageRating);
 
 // This should be refactored.
 function checkSame() {
@@ -16,4 +19,10 @@ function checkSame() {
     kp2.style.backgroundColor = "#fff";
     kp2.style.color = "#000";
   }
+}
+
+function handleChangePageRating({ target }) {
+  const pageRatingValueElem = document.querySelector("#pageRatingValue");
+
+  pageRatingValueElem.textContent = target.value;
 }
