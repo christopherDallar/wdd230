@@ -38,6 +38,10 @@ p {
   line-height: 26px;
 }
 
+textarea {
+  width: 100%;
+}
+
 header {
   background: var(--color-neutral);
   min-height: 70px;
@@ -180,4 +184,88 @@ img {
 .discover .gallery-images img {
   height: 300px;
   margin-bottom: 35px;
+}
+
+/* form */
+.join {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 50px;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  padding: 4px;
+  margin-top: 5px;
+}
+
+input[type='submit'] {
+  margin-top: 10px;
+}
+
+input::placeholder {
+  color: var(--color-blue-dark);
+}
+
+#formmessage {
+  margin-bottom: 10px;
+}
+
+#formmessage {
+  text-transform: lowercase;
+}
+
+#formmessage::first-letter {
+  text-transform: uppercase;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+.form-group label::after {
+  content: '*';
+  color: red;
+  margin-left: 5px;
+}
+
+.form-group:nth-child(1) label::after {
+  display: none;
+}
+
+.membership-table tr:nth-child(even) {
+  background: #bbb;
+}
+
+.membership-table {
+  width: 100%;
+}
+
+.membership-table td {
+  text-align: center;
+  padding: 5px 10px;
+  text-transform: capitalize;
+}
+
+.membership-cards {
+  margin-bottom: 38px;
+  margin-top: 20px;
+}
+
+.join {
+  grid-gap: 10px;
+  grid-column-gap: 70px;
+}
+
+.join form {
+  width: 100%;
 }

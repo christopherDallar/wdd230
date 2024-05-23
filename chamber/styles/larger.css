@@ -61,6 +61,29 @@
   .discover .gallery-images img {
     height: 350px;
   }
+
+  /* form */
+
+  .join {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 0px;
+    grid-column-gap: 70px;
+  }
+
+  .join h1 {
+    grid-row: 1;
+  }
+
+  .join form {
+    grid-row: 2;
+  }
+
+  .join .membership-cards {
+    margin-top: 0px;
+    grid-row: 2;
+  }
 }
 
 @media screen and (min-width: 1100px) {

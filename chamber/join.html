@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Barquisimeto Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico" >
+    <meta name="author" content="Christopher Gomez Dallar wdd230" >
+    <meta
+      name="description"
+      content="Barquisimeto Chamber of Commerce Site Plan is a website to promote business and share with as many people as possible news and recent events and a contact list of each member of the chamber of commerce."
+    >
+    <link href="https://christopherdallar.github.io/wdd230/" rel="canonical" >
+    <meta property="og:type" content="website" >
+    <meta
+      property="og:title"
+      content="Christopher - WDD 230 - Web Frontend Development"
+    >
+    <meta property="og:type" content="website" >
+    <meta
+      property="og:url"
+      content="https://christopherdallar.github.io/wdd230/chamber/join.html"
+    >
+    <link rel="stylesheet" href="styles/normalize.css" >
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/larger.css" >
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="" >
+      <button id="menu"></button>
+      <nav class="navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="#">Directory</a>
+        <a href="join.html">Join</a>
+      </nav>
+    </header>
+
+    <main class="join">
+      <form action="thankyou.html" method="get">
+        <h1>Join</h1>
+        <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            required
+            placeholder="Christopher"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="lastName">Last Name</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            required
+            placeholder="Gomez"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="position">Position</label>
+          <input
+            type="text"
+            name="position"
+            id="position"
+            placeholder="Manager"
+            pattern="[A-Za-z\- ]{7,}"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+            placeholder="Format: yourmail@domain.com"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="mobilePhone">Mobile Phone</label>
+          <input
+            type="tel"
+            name="mobilePhone"
+            id="mobilePhone"
+            required
+            placeholder="0424582227"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="businessName">Business / Organization's Name</label>
+          <input
+            type="text"
+            name="businessName"
+            id="businessName"
+            required
+            placeholder="Amazon"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="businessName">Membership Level</label>
+          <select name="membershipLevel" id="membershipLevel">
+            <option value="np">NP</option>
+            <option value="bronze">Bronze</option>
+            <option value="silver">Silver</option>
+            <option value="gold">Gold</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="businessDescription">
+            Business / Organization's Description
+          </label>
+          <br >
+          <textarea
+            name="businessDescription"
+            id="businessDescription"
+            rows="10"
+          ></textarea>
+        </div>
+
+        <input type="hidden" name="timestamp" id="timestamp" >
+        <!-- This field contains the current date and time that the form was loaded by the user. -->
+
+        <input type="submit" value="Join" >
+      </form>
+
+      <div class="membership-cards">
+        <h2>Membership Level Benefits</h2>
+        <table class="membership-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Gold</th>
+              <th>Silver</th>
+              <th>Bronze</th>
+              <th>NP</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>special events</td>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+            </tr>
+
+            <tr>
+              <td>training</td>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>❌</td>
+            </tr>
+
+            <tr>
+              <td>advertising</td>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>❌</td>
+            </tr>
+
+            <tr>
+              <td>event discounts</td>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>❌</td>
+              <td>✔️</td>
+            </tr>
+
+            <tr>
+              <td>spotlight positions</td>
+              <td>✔️</td>
+              <td>❌</td>
+              <td>❌</td>
+              <td>❌</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer>
+      <p>Contact Us: +584245726717</p>
+      <p>
+        &copy; 2024, Christopher Gómez Dallar, Venezuela. Project for WDD 230.
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/join.js"></script>
+  </body>
+</html>
