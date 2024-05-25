@@ -1,0 +1,13 @@
+{
+  "familyName": "FisherMan",
+  "dateMoved": "24-05-01",
+  "peopleNumber": 5,
+  "wasVisitedByBishopric": "True",
+  "individualFamilyMembers": [
+    {
+      "name": "Manuel",
+      "gender": "male",
+      "birthDate": "24-05-01"
+    }
+  ]
+}
