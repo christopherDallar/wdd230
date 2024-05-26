@@ -297,3 +297,18 @@ input::placeholder {
 .form-group:nth-child(1) label::after {
   display: none;
 }
+
+.card ul li #weather-icon {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.card ul li #weather-info {
+  text-transform: capitalize;
+}
+
+.card ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,97 @@
+{
+  "weeks": [
+    {
+      "week": "Week 01",
+      "links": [
+        {
+          "url": "week01/holygrail.html",
+          "title": "Grail"
+        },
+        {
+          "url": "week01/chamber-site-plan.html",
+          "title": "Chamber Site P."
+        }
+      ]
+    },
+    {
+      "week": "Week 02",
+      "links": [
+        {
+          "url": "week02/design.html",
+          "title": "Web Design Principles"
+        },
+        {
+          "url": "https://codepen.io/christopherDallar/pen/vYwEjgy",
+          "title": "Ham Menu Pen"
+        },
+        {
+          "url": "week02/bom.html",
+          "title": "DOM Manipulation"
+        }
+      ]
+    },
+    {
+      "week": "Week 03",
+      "links": [
+        {
+          "url": "week03/images/landscape.webp",
+          "title": "WebP"
+        },
+        {
+          "url": "week03/lazyload.html",
+          "title": "lazyload"
+        },
+        {
+          "url": "week03/responsive-images.html",
+          "title": "Responsive Images"
+        },
+        {
+          "url": "week03/bom.html",
+          "title": "localStorage"
+        }
+      ]
+    },
+    {
+      "week": "Week 04",
+      "links": [
+        {
+          "url": "https://codepen.io/christopherDallar/pen/eYaZmVV",
+          "title": "PEN"
+        },
+        {
+          "url": "week04/images/combinator-exercise.png",
+          "title": "Combinator Exercise"
+        },
+        {
+          "url": "week04/tablebuild.html",
+          "title": "Tables"
+        },
+        {
+          "url": "week04/form-start/index.html",
+          "title": "Form"
+        }
+      ]
+    },
+    {
+      "week": "Week 05",
+      "links": [
+        {
+          "url": "https://codepen.io/christopherDallar/pen/dyEpJJe",
+          "title": "PEN"
+        },
+        {
+          "url": "week05/new-ward-members.json",
+          "title": "JSON"
+        },
+        {
+          "url": "week05/prophets.html",
+          "title": "Prophets"
+        },
+        {
+          "url": "week05/weather.html",
+          "title": "Weather"
+        }
+      ]
+    }
+  ]
+}
