@@ -46,7 +46,7 @@ const displayMemberCards = (members) => {
 
 const loadMembers = async () => {
   try {
-    const reqUrl = `/data/members.json`;
+    const reqUrl = `https://christopherdallar.github.io/wdd230/chamber/data/members.json`;
     const resp = await fetch(reqUrl);
 
     if (!resp.ok) throw Error(resp.text());
