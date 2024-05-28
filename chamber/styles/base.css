@@ -315,7 +315,7 @@ input::placeholder {
 }
 
 .directory .grid h3 {
-  font-family: 'Caveat', cursive;
+  margin: 5px 0px;
 }
 
 .directory .list {
@@ -357,7 +357,6 @@ input::placeholder {
 }
 
 .directory section a {
-  font-family: 'Roboto', Arial, sans-serif;
   font-size: 0.85rem;
   color: navy;
   letter-spacing: 1.1pt;
