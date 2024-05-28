@@ -269,3 +269,107 @@ input::placeholder {
 .join form {
   width: 100%;
 }
+
+/* discover */
+
+.directory .menu {
+  height: fit-content;
+  margin: 1rem auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  background-color: var(--color-primary);
+  text-align: center;
+}
+
+.directory .menu button {
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.directory section {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: #fdfeff;
+}
+
+.directory .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 5px;
+  align-items: baseline;
+}
+
+.directory .grid section {
+  text-align: center;
+}
+
+.directory .grid img {
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px #333;
+}
+
+.directory .grid section > * {
+  margin: 0.1rem;
+}
+
+.directory .grid h3 {
+  font-family: 'Caveat', cursive;
+}
+
+.directory .list {
+  display: flex;
+  flex-direction: column;
+}
+
+.directory .list section {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  margin: 0;
+  padding: 0.25rem;
+}
+
+.directory .list section > * {
+  margin: 0 1rem;
+}
+
+.directory .list section img {
+  display: none; /* smaller viewports only */
+}
+
+.directory .list section h3 {
+  font-size: 1rem;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.directory .list section:nth-child(even) {
+  background-color: #bed;
+}
+
+.directory section h3 {
+  font-size: 1.5rem;
+}
+
+.directory section p {
+  font-weight: 600;
+  font-size: smaller;
+}
+
+.directory section a {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 0.85rem;
+  color: navy;
+  letter-spacing: 1.1pt;
+}
+
+.directory img {
+  height: 75px;
+  max-width: 100%; /* Images are jerks - Seattle*/
+}
+
+.directory a,
+.directory p,
+.directory h3 {
+  word-break: break-all;
+}

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title>Barquisimeto Chamber of Commerce - Thank You</title>
+    <title>Barquisimeto Chamber of Commerce - Directory</title>
     <link rel="icon" href="favicon.ico" >
     <meta name="author" content="Christopher Gomez Dallar wdd230" >
     <meta
@@ -14,12 +14,16 @@
     <meta property="og:type" content="website" >
     <meta
       property="og:title"
-      content="Christopher - WDD 230 - Web Frontend Development - Thankyou"
+      content="Christopher - WDD 230 - Web Frontend Development - Directory"
     >
     <meta property="og:type" content="website" >
     <meta
       property="og:url"
-      content="https://christopherdallar.github.io/wdd230/chamber/thankyou.html"
+      content="https://christopherdallar.github.io/wdd230/chamber/"
+    >
+    <meta
+      property="og:image"
+      content="https://christopherdallar.github.io/wdd230/chamber/images/home_page.png"
     >
     <link rel="stylesheet" href="styles/normalize.css" >
     <link rel="stylesheet" href="styles/base.css" >
@@ -37,8 +41,15 @@
       </nav>
     </header>
 
-    <main>
-      <h1>Successful shipment, Thank you!</h1>
+    <main class="directory">
+      <div class="menu">
+        <button id="grid">⏹️Grid</button>
+        <button id="list">📄List</button>
+      </div>
+      <hr >
+      <article class="grid">
+
+      </article>
     </main>
 
     <footer>
@@ -49,7 +60,7 @@
       <p id="lastModified"></p>
     </footer>
 
-    <script src="scripts/getDates.js"></script>
+    <script src="scripts/directory.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
   </body>
 </html>

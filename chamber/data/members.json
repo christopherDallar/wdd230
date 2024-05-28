@@ -1,0 +1,60 @@
+{
+  "members": [
+    {
+      "name": "QUALCOMM",
+      "address": "5775 Morehouse Drive, San Diego, CA 92121, USA",
+      "phone": "+496217592",
+      "url": "https://www.qualcomm.com/",
+      "imageUrl": "qcom.webp",
+      "membershipLevel": "Gold"
+    },
+    {
+      "name": "Raytheon Technologies",
+      "address": "400 Main Street, East Hartford, CT 06108, USA",
+      "phone": "+18605654321",
+      "url": "https://www.rtx.com/",
+      "imageUrl": "rtx.webp",
+      "membershipLevel": "Gold"
+    },
+    {
+      "name": "Reliance Industries",
+      "address": "Village Meghpar/Padana, Taluka Lalpur, Jamnagar - 361 280, Gujarat, India",
+      "phone": "+496217591",
+      "url": "https://www.ril.com/",
+      "imageUrl": "reliance-ns.webp",
+      "membershipLevel": "Bronze"
+    },
+    {
+      "name": "Roche",
+      "address": "Roche Diagnostics GmbH, Sandhofer Strasse 116, 68305 Mannheim, Germany",
+      "phone": "+496217590",
+      "url": "https://www.roche.com/",
+      "imageUrl": "rog-sw.webp",
+      "membershipLevel": "silver"
+    },
+    {
+      "name": "Royal Bank Of Canada",
+      "address": "200 Bay Street, Royal Bank Plaza, Toronto, ON M5J 2J5, Canada",
+      "phone": "+14169745151",
+      "url": "https://www.rbcroyalbank.com/personal.html",
+      "imageUrl": "rbc.webp",
+      "membershipLevel": "silver"
+    },
+    {
+      "name": "Samsung",
+      "address": "Samsung Electronics Building, 129 Samsung-ro, Yeongtong-gu, Suwon-si, Gyeonggi-do, South Korea",
+      "phone": "+82312001114",
+      "url": "https://www.samsung.com/",
+      "imageUrl": "samsung.webp",
+      "membershipLevel": "Gold"
+    },
+    {
+      "name": "SAP",
+      "address": "SAP SE, Dietmar-Hopp-Allee 16, 69190 Walldorf, Germany",
+      "phone": "+496227747474",
+      "url": "https://www.sap.com/latinamerica/index.html",
+      "imageUrl": "sap.webp",
+      "membershipLevel": "Gold"
+    }
+  ]
+}
