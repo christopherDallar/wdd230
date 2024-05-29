@@ -53,8 +53,6 @@ const loadMembers = async () => {
 
     const data = await resp.json();
 
-    console.log(data);
-
     displayMemberCards(data.members);
   } catch (error) {
     console.log(error);
