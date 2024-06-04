@@ -91,10 +91,26 @@
     min-height: 60vh;
     grid-template-columns: auto;
   }
+
+  /* home-page */
+
+  .home-page {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1100px) {
   .discover .gallery-images img {
     height: 500px;
+  }
+
+  .home-page .current-events {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .home-page .current-events .cards {
+    width: 80%;
   }
 }

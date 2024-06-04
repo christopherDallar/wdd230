@@ -41,8 +41,95 @@
       </nav>
     </header>
 
-    <main>
+    <main class="home-page">
       <h1>Barquisimeto Chamber of Commerce</h1>
+
+      <div class="hero">
+        <picture>
+          <source media="(max-width: 500px)" srcset="images/hero.webp" >
+          <source media="(max-width: 1000px)" srcset="images/hero.webp" >
+          <img src="images/hero.webp" alt="larger" width="960" height="480" >
+        </picture>
+        <a class="call-to-action" href="join.html">
+          JOIN US - Be Part of the Chamber
+        </a>
+      </div>
+
+      <div id="chamber-meet-banner">
+        <h2>Chamber Of Commerce Meet</h2>
+        <p>Join Us On Wednesday at 7:00 pm</p>
+      </div>
+
+      <aside class="weather-information">
+        <h2>Weather Information</h2>
+        <ul>
+          <li>🇻🇪 Caracas, Venezuela</li>
+          <li>
+            <img id="weather-icon" alt="weather icon" src="#" >
+            <span id="weather-info"></span>
+          </li>
+        </ul>
+      </aside>
+
+      <div class="current-events">
+        <h2>Current Events</h2>
+
+        <div class="cards">
+          <section class="card">
+            <h3>signing insurance purchase for all our members</h3>
+            <picture>
+              <source
+                media="(max-width: 500px)"
+                srcset="images/contract-small.webp"
+              >
+              <img
+                loading="lazy"
+                src="images/contract-larger.webp"
+                alt="signing contract"
+                width="750"
+                height="500"
+              >
+            </picture>
+          </section>
+          <section class="card">
+            <h3>networking meeting with all our silver and gold members</h3>
+            <picture>
+              <source
+                media="(max-width: 500px)"
+                srcset="images/networking-meet-small.webp"
+              >
+              <img
+                loading="lazy"
+                src="images/networking-meet-larger.webp"
+                alt="Networking Meet"
+                width="750"
+                height="500"
+              >
+            </picture>
+          </section>
+          <section class="card">
+            <h3>awards for the most outstanding companies of the year</h3>
+            <picture>
+              <source
+                media="(max-width: 500px)"
+                srcset="images/award-business-small.webp"
+              >
+              <img
+                loading="lazy"
+                src="images/award-business-larger.webp"
+                alt="Business Awards"
+                width="750"
+                height="500"
+              >
+            </picture>
+          </section>
+        </div>
+      </div>
+
+      <div class="spotlight-members">
+        <h2>Spotlight Members</h2>
+        <div class="cards"></div>
+      </div>
     </main>
 
     <footer>
@@ -55,5 +142,6 @@
 
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/index.js"></script>
   </body>
 </html>

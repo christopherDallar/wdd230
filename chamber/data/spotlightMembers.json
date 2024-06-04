@@ -1,0 +1,36 @@
+{
+  "members": [
+    {
+      "name": "QUALCOMM",
+      "address": "5775 Morehouse Drive, San Diego, CA 92121, USA",
+      "phone": "+496217592",
+      "url": "https://www.qualcomm.com/",
+      "imageUrl": "qcom.webp",
+      "membershipLevel": "gold"
+    },
+    {
+      "name": "Raytheon Technologies",
+      "address": "400 Main Street, East Hartford, CT 06108, USA",
+      "phone": "+18605654321",
+      "url": "https://www.rtx.com/",
+      "imageUrl": "rtx.webp",
+      "membershipLevel": "gold"
+    },
+    {
+      "name": "Roche",
+      "address": "Roche Diagnostics GmbH, Sandhofer Strasse 116, 68305 Mannheim, Germany",
+      "phone": "+496217590",
+      "url": "https://www.roche.com/",
+      "imageUrl": "rog-sw.webp",
+      "membershipLevel": "silver"
+    },
+    {
+      "name": "Samsung",
+      "address": "Samsung Electronics Building, 129 Samsung-ro, Yeongtong-gu, Suwon-si, Gyeonggi-do, South Korea",
+      "phone": "+82312001114",
+      "url": "https://www.samsung.com/",
+      "imageUrl": "samsung.webp",
+      "membershipLevel": "gold"
+    }
+  ]
+}
